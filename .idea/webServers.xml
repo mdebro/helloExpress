@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b5c50999-37f8-4e17-9701-f9d7331211d2" name="EC2 52.14.133.63" url="http://52.14.133.63:3000">
+        <fileTransfer host="52.14.133.63" port="22" privateKey="$USER_HOME$/dev-2017.pem" rootFolder="/test" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
